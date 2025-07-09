@@ -67,22 +67,22 @@ export default function Navigation() {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-divine-beige">
-            <Link href="/" className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
+            <Link href="/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
               Home
             </Link>
-            <Link href="/about" className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
+            <Link href="/about" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
               About
             </Link>
-            <Link href="/services" className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
+            <Link href="/services" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
               Services
             </Link>
-            <Link href="/testimonials" className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
+            <Link href="/testimonials" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
               Testimonials
             </Link>
-            <Link href="/blog" className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
+            <Link href="/blog" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
               Blog
             </Link>
-            <Link href="/schedule" className="block px-3 py-2 bg-divine-blue text-white rounded-md hover:bg-blue-600 transition-colors text-center font-medium">
+            <Link href="/schedule" onClick={() => setIsOpen(false)} className="block px-3 py-2 bg-divine-blue text-white rounded-md hover:bg-blue-600 transition-colors text-center font-medium">
               Schedule Session
             </Link>
           </div>
