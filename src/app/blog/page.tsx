@@ -155,7 +155,7 @@ export default function Blog() {
           <div className="bg-divine-light-blue p-6 rounded-lg">
             <div className="flex items-center justify-center text-divine-blue mb-2">
               <span className="text-2xl mr-2">✝</span>
-              <span className="text-lg font-semibold">"Trust in the Lord with all your heart and lean not on your own understanding." - Proverbs 3:5</span>
+              <span className="text-lg font-semibold">&quot;Trust in the Lord with all your heart and lean not on your own understanding.&quot; - Proverbs 3:5</span>
             </div>
           </div>
         </div>

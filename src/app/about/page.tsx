@@ -29,7 +29,7 @@ export default function About() {
             </p>
             <div className="bg-divine-light-blue p-6 rounded-lg">
               <p className="text-gray-700 italic text-center">
-                "He heals the brokenhearted and binds up their wounds." - Psalm 147:3
+                &quot;He heals the brokenhearted and binds up their wounds.&quot; - Psalm 147:3
               </p>
             </div>
           </div>
@@ -161,8 +161,8 @@ export default function About() {
               Ready to Begin Your Healing Journey?
             </h3>
             <p className="text-gray-700 mb-6">
-              Take the first step toward restoration and hope. We're here to walk alongside you 
-              as you discover God's plan for your healing and wholeness.
+              Take the first step toward restoration and hope. We&apos;re here to walk alongside you 
+              as you discover God&apos;s plan for your healing and wholeness.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

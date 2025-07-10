@@ -42,7 +42,7 @@ export default function Navigation() {
             <Link href="/blog" className="text-gray-700 hover:text-divine-blue transition-colors text-sm lg:text-base">
               Blog
             </Link>
-            <Link href="/schedule" className="bg-divine-blue text-white px-3 lg:px-4 py-2 rounded-md hover:bg-blue-600 transition-colors text-sm lg:text-base">
+            <Link href="/schedule" className="bg-blue-500 text-white px-3 lg:px-4 py-2 rounded-md hover:bg-blue-600 transition-colors text-sm lg:text-base">
               Schedule Session
             </Link>
           </div>
@@ -82,7 +82,7 @@ export default function Navigation() {
             <Link href="/blog" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
               Blog
             </Link>
-            <Link href="/schedule" onClick={() => setIsOpen(false)} className="block px-3 py-2 bg-divine-blue text-white rounded-md hover:bg-blue-600 transition-colors text-center font-medium">
+            <Link href="/schedule" onClick={() => setIsOpen(false)} className="block px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-600 transition-colors text-center font-medium">
               Schedule Session
             </Link>
           </div>
