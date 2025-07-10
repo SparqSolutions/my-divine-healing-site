@@ -18,7 +18,7 @@ export default function Navigation() {
                 alt="Divine Healing Therapy Logo"
                 width={40}
                 height={40}
-                className="object-contain"
+                className="h-auto object-contain"
               />
               <span className="text-lg sm:text-2xl font-bold text-divine-blue">
                 Divine Healing Therapy

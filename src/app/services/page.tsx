@@ -190,13 +190,6 @@ export default function Services() {
               >
                 Schedule Consultation
               </a>
-              <a
-                href="/contact"
-                className="border-2 border-divine-blue text-divine-blue px-8 py-3 rounded-lg font-semibold hover:bg-blue-500
-                hover:text-white transition-colors"
-              >
-                Contact Us
-              </a>
             </div>
             
             <div className="mt-8 p-4 bg-divine-light-blue rounded-lg">

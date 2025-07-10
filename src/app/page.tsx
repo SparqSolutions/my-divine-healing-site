@@ -32,7 +32,7 @@ export default function Home() {
                 <div className="bg-divine-white/80 p-3 sm:p-4 rounded-lg shadow-lg text-center mt-4">
                   <div className="flex items-center justify-center text-divine-blue">
                     <span className="text-xl sm:text-2xl mr-2">✝</span>
-                    <span className="font-semibold text-sm sm:text-base">Faith-Based Healing</span>
+                    <span className="font-semibold text-lg sm:text-base">Faith-Based Healing</span>
                   </div>
                 </div>
               </div>

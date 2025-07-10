@@ -95,12 +95,6 @@ export default function Testimonials() {
               >
                 Schedule Your Session
               </a>
-              <a
-                href="/contact"
-                className="border-2 border-divine-blue text-divine-blue px-8 py-3 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition-colors"
-              >
-                Contact Us
-              </a>
             </div>
           </div>
         </div>

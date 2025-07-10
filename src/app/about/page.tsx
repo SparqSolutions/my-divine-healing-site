@@ -38,7 +38,7 @@ export default function About() {
             <div className="relative">
               <div className="w-80 h-80 rounded-lg bg-divine-blue flex items-center justify-center shadow-lg">
                 <Image
-                  src="/placeholder-about.jpg"
+                  src="/logoImage.png"
                   alt="Divine Healing Therapy - About Us"
                   width={320}
                   height={320}
@@ -61,7 +61,7 @@ export default function About() {
               <div className="flex justify-center lg:justify-start">
                 <div className="w-64 h-64 rounded-full bg-divine-light-blue flex items-center justify-center">
                   <Image
-                    src="/placeholder-therapist.jpg"
+                    src="/avatar.png"
                     alt="Professional Therapist"
                     width={256}
                     height={256}
@@ -170,12 +170,6 @@ export default function About() {
                 className="bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
               >
                 Schedule a Consultation
-              </a>
-              <a
-                href="/contact"
-                className="border-2 border-divine-blue text-divine-blue px-8 py-3 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition-colors"
-              >
-                Contact Us
               </a>
             </div>
           </div>
