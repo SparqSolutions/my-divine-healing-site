@@ -156,7 +156,7 @@ export default function Schedule() {
                   rows={4}
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Please share anything you'd like us to know about your needs or concerns..."
+                  placeholder="Please share anything you&apos;d like us to know about your needs or concerns..."
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-divine-blue focus:border-transparent"
                 />
               </div>
@@ -204,10 +204,10 @@ export default function Schedule() {
                 🙏 Prayer Before Your Session
               </h3>
               <p className="text-gray-700 mb-4">
-                "Come to me, all you who are weary and burdened, and I will give you rest." - Matthew 11:28
+                &quot;Come to me, all you who are weary and burdened, and I will give you rest.&quot; - Matthew 11:28
               </p>
               <p className="text-gray-700">
-                We begin each session with a brief prayer, inviting God's presence into our time together. 
+                We begin each session with a brief prayer, inviting God&apos;s presence into our time together. 
                 This sacred space allows for authentic healing and spiritual growth.
               </p>
             </div>
@@ -219,7 +219,7 @@ export default function Schedule() {
               <div className="space-y-2 text-gray-700">
                 <p><strong>Phone:</strong> (555) 123-4567</p>
                 <p><strong>Email:</strong> info@divinehealingtherapy.com</p>
-                <p><strong>Emergency:</strong> If you're experiencing a crisis, please call 988 (Suicide & Crisis Lifeline)</p>
+                <p><strong>Emergency:</strong> If you&apos;re experiencing a crisis, please call 988 (Suicide & Crisis Lifeline)</p>
               </div>
             </div>
           </div>

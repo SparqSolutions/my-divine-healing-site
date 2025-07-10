@@ -46,11 +46,11 @@ export default function Testimonials() {
             Testimonials
           </h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Hear from those who have experienced God's healing through our professional Christian counseling services.
+            Hear from those who have experienced God&apos;s healing through our professional Christian counseling services.
           </p>
           <div className="mt-8 flex justify-center items-center text-divine-blue">
             <span className="text-2xl mr-2">✝</span>
-            <span className="text-lg font-semibold">"He heals the brokenhearted and binds up their wounds." - Psalm 147:3</span>
+            <span className="text-lg font-semibold">&quot;He heals the brokenhearted and binds up their wounds.&quot; - Psalm 147:3</span>
           </div>
         </div>
 
@@ -63,7 +63,7 @@ export default function Testimonials() {
                 ))}
               </div>
               <blockquote className="text-gray-700 mb-6 italic">
-                "{testimonial.text}"
+                &quot;{testimonial.text}&quot;
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-divine-light-blue rounded-full flex items-center justify-center mr-4">

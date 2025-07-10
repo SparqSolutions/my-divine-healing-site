@@ -42,7 +42,7 @@ export default function Home() {
                   Divine Healing Therapy
                 </h1>
                 <p className="text-lg sm:text-xl text-gray-800 mb-4 lg:mb-6">
-                  "Divine Healing Therapy because you can have Jesus & a therapist..."
+                  &quot;Divine Healing Therapy because you can have Jesus & a therapist...&quot;
                 </p>
                 <p className="text-base sm:text-lg text-gray-700 mb-6 lg:mb-8">
                   Personalized therapy focusing on trauma, anxiety, and emotional healing through 

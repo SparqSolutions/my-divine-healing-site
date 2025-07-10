@@ -90,7 +90,7 @@ export default function About() {
                 <p className="text-gray-700">
                   [Name] has extensive experience working with anxiety, depression, trauma, relationship 
                   issues, and spiritual concerns. [He/She] provides a safe, non-judgmental environment 
-                  where clients can explore their thoughts and feelings while discovering God's love and 
+                  where clients can explore their thoughts and feelings while discovering God&apos;s love and 
                   purpose for their lives.
                 </p>
               </div>

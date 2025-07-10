@@ -194,7 +194,7 @@ export default function Services() {
             
             <div className="mt-8 p-4 bg-divine-light-blue rounded-lg">
               <p className="text-gray-700 italic">
-                "Divine Healing Therapy because you can have Jesus & a therapist..."
+                &quot;Divine Healing Therapy because you can have Jesus & a therapist...&quot;
               </p>
             </div>
           </div>

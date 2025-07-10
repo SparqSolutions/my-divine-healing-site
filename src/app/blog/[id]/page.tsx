@@ -68,8 +68,9 @@ const getBlogPost = (id: string) => {
   return blogPosts.find(post => post.id.toString() === id);
 };
 
-export default function BlogPost({ params }: { params: { id: string } }) {
-  const post = getBlogPost(params.id);
+export default async function BlogPost({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const post = getBlogPost(id);
 
   if (!post) {
     return (
