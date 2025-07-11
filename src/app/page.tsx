@@ -11,9 +11,9 @@ export default function Home() {
             alt="Beach landscape"
             layout="fill"
             objectFit="cover"
-            className="opacity-50"
+            className="opacity-40"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-white"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-blue-100 via-transparent to-blue-100"></div>
         </div>
         <div className="relative z-10 max-w-4xl mx-auto">
 
@@ -27,7 +27,7 @@ export default function Home() {
             />
             <div className="text-left text-lg text-gray-800">
               <h2 className="text-3xl font-bold text-divine-navy mb-4">Shy&apos;s Story</h2>
-              <p className="mb-4 italic">
+              <p className="mb-4 font-bold italic">
                 &quot;Divine Healing Therapy because you can have Jesus & a therapist...&quot;
               </p>
               <p className="mb-4">

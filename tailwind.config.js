@@ -11,7 +11,7 @@ module.exports = {
         'divine-blue': 'var(--mardi-gras)',
         'divine-light-blue': 'var(--lilac)',
         'divine-beige': 'var(--lilac)',
-        'divine-white': '#F8F6F0',
+        'divine-white': '#EBF8FF',
         'divine-gold': 'var(--mardi-gras)',
         'divine-navy': 'var(--mardi-gras)',
         'mardi-gras': 'var(--mardi-gras)',
