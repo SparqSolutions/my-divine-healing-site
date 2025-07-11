@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Blog() {
   const blogPosts = [
@@ -10,7 +11,7 @@ export default function Blog() {
       date: "March 15, 2024",
       category: "Mental Health",
       readTime: "5 min read",
-      image: "/blog-placeholder-1.jpg"
+      image: "/blog/blogPic1.jpg"
     },
     {
       id: 2,
@@ -20,7 +21,7 @@ export default function Blog() {
       date: "March 10, 2024",
       category: "Trauma Recovery",
       readTime: "7 min read",
-      image: "/blog-placeholder-2.jpg"
+      image: "/blog/blogPic2.jpg"
     },
     {
       id: 3,
@@ -30,7 +31,7 @@ export default function Blog() {
       date: "March 5, 2024",
       category: "Relationships",
       readTime: "6 min read",
-      image: "/blog-placeholder-3.jpg"
+      image: "/blog/blogPic3.jpg"
     },
     {
       id: 4,
@@ -40,7 +41,7 @@ export default function Blog() {
       date: "February 28, 2024",
       category: "Mental Health",
       readTime: "8 min read",
-      image: "/blog-placeholder-4.jpg"
+      image: "/blog/blogPic4.jpg"
     },
     {
       id: 5,
@@ -50,7 +51,7 @@ export default function Blog() {
       date: "February 22, 2024",
       category: "Emotional Healing",
       readTime: "5 min read",
-      image: "/blog-placeholder-5.jpg"
+      image: "/blog/blogPic5.jpg"
     },
     {
       id: 6,
@@ -60,7 +61,7 @@ export default function Blog() {
       date: "February 15, 2024",
       category: "Family",
       readTime: "9 min read",
-      image: "/blog-placeholder-6.jpg"
+      image: "/blog/blogPic0.jpg"
     }
   ];
 
@@ -92,8 +93,14 @@ export default function Blog() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogPosts.map((post) => (
             <article key={post.id} className="bg-divine-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="h-48 bg-divine-light-blue flex items-center justify-center">
-                <span className="text-divine-blue text-sm font-medium">Blog Image Placeholder</span>
+              <div className="h-48 relative">
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
               </div>
               
               <div className="p-6">
