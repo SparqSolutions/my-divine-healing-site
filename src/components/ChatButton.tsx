@@ -113,7 +113,7 @@ const ChatButton = () => {
         }`}
       >
         {/* Header */}
-        <div className="bg-blue-500 text-white p-4 rounded-t-lg flex justify-between items-center shadow-md">
+        <div className="bg-[var(--lilac)] text-[var(--mardi-gras)] p-4 rounded-t-lg flex justify-between items-center shadow-md">
           <h3 className="font-bold text-lg">Divine Healing Therapy</h3>
           <button
             onClick={toggleChat}
@@ -149,7 +149,7 @@ const ChatButton = () => {
               <div
                 className={`max-w-xs lg:max-w-md px-4 py-2 rounded-2xl ${
                   msg.sender === "user"
-                    ? "bg-blue-500 text-white rounded-br-none"
+                    ? "bg-[var(--lilac)] text-[var(--mardi-gras)] rounded-br-none"
                     : "bg-gray-200 text-gray-800 rounded-bl-none"
                 }`}
               >
@@ -185,12 +185,12 @@ const ChatButton = () => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Type your message..."
-              className="flex-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-shadow"
+              className="flex-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--lilac)] transition-shadow"
               disabled={isLoading}
             />
             <button
               type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 disabled:bg-blue-300 transition-colors"
+              className="bg-[var(--lilac)] text-[var(--mardi-gras)] px-4 py-2 rounded-lg hover:bg-[var(--magenta)] disabled:bg-blue-300 transition-colors"
               disabled={isLoading}
             >
               <svg
@@ -215,7 +215,7 @@ const ChatButton = () => {
       {/* CHAT BUTTON */}
       <button
         onClick={toggleChat}
-        className="fixed bottom-4 right-4 bg-blue-500 text-white w-16 h-16 rounded-full shadow-lg flex items-center justify-center hover:bg-blue-600 transition-all transform hover:scale-110 z-40" // z-40 so it is below chat window
+        className="fixed bottom-4 right-4 bg-[var(--lilac)] text-[var(--mardi-gras)] w-16 h-16 rounded-full shadow-lg flex items-center justify-center hover:bg-[var(--magenta)] transition-all transform hover:scale-110 z-40" // z-40 so it is below chat window
         aria-label={isOpen ? "Close chat" : "Open chat"}
       >
         {isOpen ? (

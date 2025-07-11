@@ -3,6 +3,10 @@
 :root {
   --background: #F8F6F0;
   --foreground: #171717;
+  --lilac: #c8a2c8;
+  --mardi-gras: #7f2982;
+  --tiffany-blue: #d0efed;
+  --magenta: #c23aab;
 }
 
 @theme inline {
@@ -16,11 +20,15 @@
   :root {
     --background: #F8F6F0;
     --foreground: #171717;
+    --lilac: #c8a2c8;
+    --mardi-gras: #7f2982;
+    --tiffany-blue: #d0efed;
+    --magenta: #c23aab;
   }
 }
 
 body {
-  background: var(--background);
+  background: var(--tiffany-blue);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

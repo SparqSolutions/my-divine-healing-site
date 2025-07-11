@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Navigation() {
@@ -13,13 +12,7 @@ export default function Navigation() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
-              <Image
-                src="/logoImage.png"
-                alt="Divine Healing Therapy Logo"
-                width={40}
-                height={40}
-                className="h-auto object-contain"
-              />
+              
               <span className="text-lg sm:text-2xl font-bold text-divine-blue">
                 Divine Healing Therapy
               </span>
@@ -42,7 +35,7 @@ export default function Navigation() {
             <Link href="/blog" className="text-gray-700 hover:text-divine-blue transition-colors text-sm lg:text-base">
               Blog
             </Link>
-            <Link href="/schedule" className="bg-blue-500 text-white px-3 lg:px-4 py-2 rounded-md hover:bg-blue-600 transition-colors text-sm lg:text-base">
+            <Link href="/schedule" className="bg-[var(--lilac)] text-[var(--mardi-gras)] px-3 lg:px-4 py-2 rounded-md hover:bg-[var(--magenta)] transition-colors text-sm lg:text-base">
               Schedule Session
             </Link>
           </div>
@@ -82,7 +75,7 @@ export default function Navigation() {
             <Link href="/blog" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-divine-blue rounded-md hover:bg-divine-white transition-colors">
               Blog
             </Link>
-            <Link href="/schedule" onClick={() => setIsOpen(false)} className="block px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-600 transition-colors text-center font-medium">
+            <Link href="/schedule" onClick={() => setIsOpen(false)} className="block px-3 py-2 bg-[var(--lilac)] text-[var(--mardi-gras)] rounded-md hover:bg-[var(--magenta)] transition-colors text-center font-medium">
               Schedule Session
             </Link>
           </div>

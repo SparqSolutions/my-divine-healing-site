@@ -3,72 +3,70 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-divine-white">
-      <section className="relative min-h-[100vh] sm:min-h-[120vh] lg:min-h-[600px]">
-        <Image 
-          src="/beachscape.jpg"
-          alt="Beach landscape"
-          width={1408}
-          height={768}
-          className="w-full h-[100vh] sm:h-[120vh] lg:h-[600px] object-cover"
-        />
-        <div className="absolute top-0 left-0 right-0 h-3/4 bg-gradient-to-b from-white to-transparent"></div>
-        <div className="absolute bottom-0 left-0 right-0 h-3/4 bg-gradient-to-t from-white to-transparent"></div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-            <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-              <div className="flex flex-col items-center px-4 lg:px-0 order-1 lg:order-2">
-                <div className="relative">
-                  <div className="w-48 h-48 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full bg-divine-light-blue flex items-center justify-center">
-                    <Image
-                      src="/avatar.png"
-                      alt="Professional Therapist - Divine Healing Therapy"
-                      width={280}
-                      height={280}
-                      className="rounded-full object-cover"
-                    />
-                  </div>
-                </div>
-                <div className="bg-divine-white/80 p-3 sm:p-4 rounded-lg shadow-lg text-center mt-4">
-                  <div className="flex items-center justify-center text-divine-blue">
-                    <span className="text-xl sm:text-2xl mr-2">✝</span>
-                    <span className="font-semibold text-lg sm:text-base">Faith-Based Healing</span>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="text-center lg:text-left px-4 lg:px-0 order-2 lg:order-1">
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-divine-navy mb-4 lg:mb-6">
-                  Divine Healing Therapy
-                </h1>
-                <p className="text-lg sm:text-xl text-gray-800 mb-4 lg:mb-6">
-                  &quot;Divine Healing Therapy because you can have Jesus & a therapist...&quot;
-                </p>
-                <p className="text-base sm:text-lg text-gray-700 mb-6 lg:mb-8">
-                  Personalized therapy focusing on trauma, anxiety, and emotional healing through 
-                  transparent fee structure.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
-                  <Link 
-                    href="/schedule"
-                    className="bg-blue-500 text-white px-6 sm:px-8 py-3 rounded-lg font-bold text-base sm:text-lg hover:bg-blue-600 transition-colors"
-                  >
-                    Schedule a Session
-                  </Link>
-                  <Link 
-                    href="/about"
-                    className="border-2 border-divine-blue text-divine-blue px-6 sm:px-8 py-3 rounded-lg font-bold text-base sm:text-lg hover:bg-blue-500 hover:text-white transition-colors"
-                  >
-                    Learn More
-                  </Link>
-                </div>
-              </div>
+    <div className="min-h-screen bg-[var(--tiffany-blue)]">
+      <section className="relative py-8 px-4">
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/beachscape.jpg"
+            alt="Beach landscape"
+            layout="fill"
+            objectFit="cover"
+            className="opacity-50"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-white"></div>
+        </div>
+        <div className="relative z-10 max-w-4xl mx-auto">
+
+          <div className="flow-root">
+            <Image
+              src="/logoImage.png"
+              alt="Divine Healing Therapy Logo"
+              width={150}
+              height={150}
+              className="float-left object-contain p-0 mr-4"
+            />
+            <div className="text-left text-lg text-gray-800">
+              <h2 className="text-3xl font-bold text-divine-navy mb-4">Shy&apos;s Story</h2>
+              <p className="mb-4 italic">
+                &quot;Divine Healing Therapy because you can have Jesus & a therapist...&quot;
+              </p>
+              <p className="mb-4">
+                My journey to creating Divine Healing Therapy began with a simple belief: that true healing encompasses mind, body, and spirit. As a therapist, I saw so many people who felt they had to choose between their faith and their mental health care. I wanted to create a space where they didn&apos;t have to.
+              </p>
+              <Image
+                src="/avatar.png"
+                alt="Shy, owner of Divine Healing Therapy"
+                width={200}
+                height={200}
+                className="float-right ml-6 mb-4 rounded-full object-cover"
+              />
+              <p className="mb-4">
+                Here, we integrate evidence-based therapeutic practices with Christian principles to offer a holistic path to wellness. My focus is on providing personalized therapy for trauma, anxiety, and emotional healing within a transparent and supportive framework.
+              </p>
+              <p>
+                It is my honor to walk alongside you on your journey. Together, we can navigate challenges, find strength in faith, and build a foundation for lasting peace and emotional well-being.
+              </p>
             </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
+            <Link 
+              href="/schedule"
+              className="bg-[var(--lilac)] text-[var(--mardi-gras)] px-6 sm:px-8 py-3 rounded-lg font-semibold text-base sm:text-lg hover:bg-[var(--magenta)] transition-colors text-center"
+            >
+              Schedule a Session
+            </Link>
+            <Link 
+              href="/about"
+              className="border-2 border-divine-blue text-[var(--mardi-gras)] px-6 sm:px-8 py-3 rounded-lg font-bold text-base sm:text-lg hover:bg-[var(--magenta)] hover:text-white transition-colors text-center"
+            >
+              Learn More
+            </Link>
           </div>
         </div>
       </section>
 
-      <section className="py-12 sm:py-16 bg-divine-white">
+      <section className="py-12 sm:py-16 bg-transparent">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">
@@ -116,7 +114,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-12 sm:py-16 bg-divine-beige">
+      <section className="py-12 sm:py-16 bg-[var(--lilac)]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
@@ -207,7 +205,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/schedule"
-              className="bg-blue-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg hover:bg-blue-600 transition-colors"
+              className="bg-[var(--lilac)] text-[var(--mardi-gras)] px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg hover:bg-[var(--magenta)] transition-colors"
             >
               Schedule Your Initial Assessment
             </Link>

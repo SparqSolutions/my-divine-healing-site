@@ -8,12 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'divine-blue': '#4A90E2',
-        'divine-light-blue': '#E8F4FD',
-        'divine-beige': '#F9F6F0',
+        'divine-blue': 'var(--mardi-gras)',
+        'divine-light-blue': 'var(--lilac)',
+        'divine-beige': 'var(--lilac)',
         'divine-white': '#F8F6F0',
-        'divine-gold': '#D4AF37',
-        'divine-navy': '#2C3E50',
+        'divine-gold': 'var(--mardi-gras)',
+        'divine-navy': 'var(--mardi-gras)',
+        'mardi-gras': 'var(--mardi-gras)',
+        'lilac': 'var(--lilac)',
+        'tiffany-blue': 'var(--tiffany-blue)',
       },
       fontFamily: {
         'serif': ['Georgia', 'serif'],
