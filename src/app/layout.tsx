@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import ChatButton from "@/components/ChatButton";
 
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
+const playfairDisplay = Playfair_Display({
+  variable: "--font-playfair-display",
   subsets: ["latin"],
 });
 
@@ -25,7 +25,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body
-        className={`${openSans.variable} antialiased bg-divine-white`}
+        className={`${playfairDisplay.variable} antialiased bg-divine-white`}
       >
         <Navigation />
         {children}
